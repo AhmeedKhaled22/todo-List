@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section>
+      <div class="bg-image">
+        <div
+          class="heading-part mx-auto mt-5 d-flex justify-content-between p-2"
+        >
+          <h1 class="text-uppercase fs-3 text-light">todo</h1>
+          <i class="fa-solid fa-sun text-light fs-5"></i>
+        </div>
+        <div
+          class="form-box mx-auto rounded-2 mt-3 d-flex justify-content-between p-2 align-items-center"
+        >
+          <div class="form-floating w-75">
+            <input
+              type="text"
+              class="form-control mb-2 text-light border-0 border-bottom rounded-0 bg-transparent"
+              id="floatingInput"
+              placeholder=""
+            />
+            <label for="floatingInput" class="text-capitalize"
+              >task to be done...</label
+            >
+          </div>
+
+          <button class="bg-primary p-2" id="addBtn" onclick="addTask()">
+            addData
+          </button>
+        </div>
+      </div>
+      <table
+        class="table table-contant table-hover table-dark text-light py-4 mx-auto mt-4"
+      >
+        <tbody id="demo">
+          <td></td>
+        </tbody>
+      </table>
+    </section>
+    <script src="js/main.js"></script>
+  </body>
+</html>

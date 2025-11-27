@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playwrite+BE+VLG:wght@100..400&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+:root
+{
+    --VeryDarkBlue: rgb(235, 21, 11);
+--Very-Dark-DesaturatedBlue: hsl(235, 24%, 19%);
+--Light-Grayish-Blue: hsl(234, 39%, 85%);
+--Light-Grayish-Blue :hsl(236, 33%, 92%);
+--Dark-Grayish-Blue: hsl(234, 11%, 52%);
+--Very-Dark-Grayish-Blue: hsl(233, 14%, 35%);
+--Very-Dark-GrayishBlue: hsl(237, 14%, 26%);
+}
+body
+{
+    font-family: "Josefin Sans", sans-serif;
+   
+}
+section
+{
+    background-color: #181824;
+    height: 100vh;
+}
+.bg-image
+{
+    background-image: url('../images/bg-desktop-dark.jpg');
+    width: 100%;
+    height: 45vh;
+    background-size: cover;
+    background-position: center center;
+    overflow: auto;
+}
+.heading-part , .form-box , #error-txt, .table , .task-num 
+{
+    width: 35%;
+}
+.heading-part h1
+
+{
+    letter-spacing: 12px;
+}
+.form-box 
+{
+    background-color:#25273c !important;
+}
+.form-floating input 
+{
+    border-bottom-color: hsl(233, 14%, 35%) !important;
+    color: whitesmoke;
+}
+.form-floating label , .form-box i
+{
+    color:hsl(234, 11%, 52%) !important ;
+    cursor: pointer;
+}
+#error-txt
+{
+    display: none ;
+}
+
+ tr
+ {
+    padding-block: 10px !important;
+    padding-inline: 10px !important;
+ }
+.task-num 
+{
+    background-color:#25273c !important ;
+    display: block;
+}
+/* table .fa-trash
+{
+    color: rgb(173, 15, 15) !important;
+} */
+table .edit 
+{
+    color: rgb(79, 79, 196) !important;
+}
+.table-contant
+{
+    box-shadow: 2px 0px 3px hsl(232, 12%, 25%) !important;
+}
+.completed {
+    color: gray;
+    text-decoration: line-through;
+}
